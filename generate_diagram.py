@@ -58,7 +58,13 @@ def generate_diagram(rows, cols):
         "editor": "wokwi",
         "parts": parts,
         "connections": connections,
-        "dependencies": {}
+        "dependencies": {},
+        ".wokwi": {
+            "firmware": "../winter/code.py",
+            "files": [
+                "winter/code.py"
+            ]
+        }
     }
 
     return json.dumps(diagram, indent=2)

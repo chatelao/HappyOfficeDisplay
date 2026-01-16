@@ -16398,5 +16398,11 @@
       ]
     ]
   ],
-  "dependencies": {}
+  "dependencies": {},
+  ".wokwi": {
+    "firmware": "../winter/code.py",
+    "files": [
+      "winter/code.py"
+    ]
+  }
 }
